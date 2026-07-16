@@ -19,3 +19,5 @@ let fun = function(){
 }
 //type of a function is a function
 console.log( fun());
+
+//type conversion
