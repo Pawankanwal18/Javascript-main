@@ -55,3 +55,13 @@ let sum =20;
 let total =++sum;
 console.log(total);//21 
 console.log(sum);//21
+
+//comparison operator
+let a=20;
+let b=20;
+console.log(a==b);
+
+let num = 10;
+let str = "10";
+console.log(num==str);//true
+console.log(num===str);//false 
