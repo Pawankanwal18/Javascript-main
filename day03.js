@@ -15,9 +15,7 @@ console.log(obj);
 //function 
 let fun = function(){
     console.log("this is a function ");
-
+    return  10;
 }
-
-fun();
 //type of a function is a function
-console.log(typeof fun);
+console.log( fun());
