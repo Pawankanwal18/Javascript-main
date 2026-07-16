@@ -65,3 +65,8 @@ let num = 10;
 let str = "10";
 console.log(num==str);//true
 console.log(num===str);//false 
+
+let abc1= 123;
+let abc2= "123";
+let abc3= 123;
+console.log(abc1==abc2==abc3);//false
