@@ -21,3 +21,20 @@ let fun = function(){
 console.log( fun());
 
 //type conversion
+let account_balance = "100";
+let num = Number(account_balance);
+console.log(num);
+
+//boolean convert to number
+
+let x = true;
+console.log(Number(x));
+
+//null
+let x1 = null;//while conversion of null it show output zero
+console.log(x1);
+
+//undefined
+let x2;
+console.log(x2);//show not a number
+
