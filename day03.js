@@ -70,3 +70,10 @@ let abc1= 123;
 let abc2= "123";
 let abc3= 123;
 console.log(abc1==abc2==abc3);//false
+
+//and operator
+let age=18;
+let money = 1000;
+console.log(age<18 && money>100);//false
+console.log(age>10|| money>100);//true
+console.log(!(age>10));//false 
