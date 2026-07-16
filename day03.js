@@ -11,4 +11,13 @@ let obj = {
     age : 23,
     city : "delhi"
 }
-console.log(obj);
+console.log(obj); 
+//function 
+let fun = function(){
+    console.log("this is a function ");
+
+}
+
+fun();
+//type of a function is a function
+console.log(typeof fun);
