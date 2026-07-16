@@ -52,5 +52,6 @@ console.log(20%3)
 
 //++ increment operator , -- decrement operator
 let sum =20;
-sum++
-console.log(sum);
+let total =++sum;
+console.log(total);//21 
+console.log(sum);//21
