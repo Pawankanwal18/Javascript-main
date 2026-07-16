@@ -38,3 +38,19 @@ console.log(x1);
 let x2;
 console.log(x2);//show not a number
 
+//string k under converstion
+let ab =20;
+console.log(String(ab));
+
+console.log(((6*(3+18))/6)-9);
+//divide multi left to right
+//add sub left to right
+
+//modules operator
+console.log(20%3)
+//reminder 
+
+//++ increment operator , -- decrement operator
+let sum =20;
+sum++
+console.log(sum);
