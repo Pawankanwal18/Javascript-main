@@ -22,3 +22,9 @@ console.log(obj2);
 
 //primitive data store in stack  memory
 //non primitive data store in heap memory
+
+//string in js
+
+let str1 = "pawan";
+let str2 = "hyy dostooo";
+let str3 = 'hello ji kase ho'
