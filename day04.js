@@ -27,4 +27,8 @@ console.log(obj2);
 
 let str1 = "pawan";
 let str2 = "hyy dostooo";
-let str3 = 'hello ji kase ho'
+let str3 = 'hello ji kase ho';
+
+let price = 200;
+
+console.log(`price of the tomato is ${price}`);
