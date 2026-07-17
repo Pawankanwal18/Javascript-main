@@ -39,3 +39,6 @@ let str5 ="pawan kase ho app";
 console.log(str4+str5);
 
 console.log('"hello pawan kanwal"');
+
+let message = 'Pawan ji bhut hi ache or honest person h. \n or vo mxt or bhut hi jyada mxt insan h .';
+console.log(message);
