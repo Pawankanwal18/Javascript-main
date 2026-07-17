@@ -37,3 +37,5 @@ console.log(`price of the tomato is ${price}`);
 let str4 ="hello ji ";
 let str5 ="pawan kase ho app";
 console.log(str4+str5);
+
+console.log('"hello pawan kanwal')
