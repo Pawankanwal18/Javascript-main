@@ -32,3 +32,8 @@ let str3 = 'hello ji kase ho';
 let price = 200;
 
 console.log(`price of the tomato is ${price}`);
+
+//srtring concatination
+let str4 ="hello ji ";
+let str5 ="pawan kase ho app";
+console.log(str4+str5);
