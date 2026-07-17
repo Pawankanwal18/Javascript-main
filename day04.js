@@ -1,3 +1,4 @@
+//memory managemant is a byte addresing
 let a =10;
 let b= a;
  b = 30;
