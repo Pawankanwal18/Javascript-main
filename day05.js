@@ -33,4 +33,5 @@
 
 console.log(Math.floor (Math.random()*10)+40);
 
-////console.log(Math.floor(Math.random()*10)); find number from 1 to 10
+////console.log(Math.floor(Math.random()*10)); find number from 0 to 9
+ 
