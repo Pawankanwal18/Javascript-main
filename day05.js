@@ -23,4 +23,4 @@
 // let num = 23.1;
 // console.log(Math.floor(num));
 // console.log(Math.ceil(num));
-console.log(Math.random()*10);
+console.log(Math.floor(Math.random()*10));
