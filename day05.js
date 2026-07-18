@@ -29,9 +29,10 @@
 
 ////genrate the value between min=40 , to max = 50;
 ////formula 
-////console.log(Math.floor(Math.random()*(max-min)+min));
+////console.log(Math.floor(Math.random()*(max-min+1)+min));
 
-console.log(Math.floor (Math.random()*10)+40);
+console.log(Math.floor (Math.random()*11)+40);
 
-////console.log(Math.floor(Math.random()*10)); find number from 0 to 9
- 
+////console.log(Math.floor(Math.random()*10)); find number from 0 to 9 and for 0 to 10 multiply by 11
+
+
