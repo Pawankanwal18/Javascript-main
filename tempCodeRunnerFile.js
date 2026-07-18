@@ -1,1 +1,3 @@
-console.log(Math.PT);
+"];
+console.log(arr[4]);
+console.log(Array.length);
