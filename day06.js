@@ -1,3 +1,5 @@
+                         //Array//
+
 // const arr=[2,34,645,"pawan","hello","true",86,73];
 // console.log(arr[4]);
 // console.log(arr.length);
@@ -29,8 +31,10 @@
 // console.log(newsplice);
 // console.log(arr);
  
-console.log(arr.toString());
+// console.log(arr.toString());
 let arr1 =[2 ,34,56,323];
 let arr2 =[3 ,45,54,534];
-let arr3 = arr1.concat(arr2);
-console.log(arr3);
+// let arr3 = arr1.concat(arr2);
+// console.log(arr3);
+arr1.push(arr2);
+console.log(arr1);//2d array
