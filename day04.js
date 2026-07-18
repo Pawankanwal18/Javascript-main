@@ -48,3 +48,5 @@ console.log(hero.length);
 
 let newstring = "hello don";
 console.log(newstring.slice(0,5));
+
+console.log(newstring.substring(0,5));
