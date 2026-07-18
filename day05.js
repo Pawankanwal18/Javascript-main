@@ -10,3 +10,9 @@ console.log(num.toFixed(2));
 console.log(num.toPrecision(4));
 console.log(num.toExponential(2));
 console.log(num.toString(2));
+
+//Math
+
+console.log(Math.E);
+console.log(Math.PT);
+
