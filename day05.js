@@ -23,4 +23,13 @@
 // let num = 23.1;
 // console.log(Math.floor(num));
 // console.log(Math.ceil(num));
-console.log(Math.floor(Math.random()*10));
+
+//console.log(Math.floor(Math.random()*10));
+////genrate the value from 1 to 9
+
+////genrate the value between min=40 , to max = 50;
+////formula 
+////console.log(Math.floor(Math.random()*(max-min)+min));
+
+console.log(Math.floor (Math.random()*10)+40);
+
