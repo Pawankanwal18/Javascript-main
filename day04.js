@@ -42,3 +42,6 @@ console.log('"hello pawan kanwal"');
 
 let message = 'Pawan ji bhut hi ache or honest person h. \n or vo mxt or bhut hi jyada mxt insan h .';
 console.log(message);
+
+let hero = "hello  bhai kase ho app";
+console.log(hero.length);
