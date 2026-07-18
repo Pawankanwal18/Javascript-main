@@ -20,7 +20,7 @@ const arr=[2,34,645,"pawan","hello","true",86,73];
 // console.log(arr);
 // console.log(arr.indexOf(2));
 console.log(arr);
-console.log(arr.slice(2,4));//4th index is not included 
+console.log(arr.slice(2,4));// start from 2 but 4th index is not included 
 
 //splice
 console.log(arr.splice(2,4));//start from 2nd index and give the 4 elements
