@@ -50,3 +50,6 @@ let newstring = "hello don";
 console.log(newstring.slice(0,5));
 
 console.log(newstring.substring(0,5));
+
+str10 = "hello kase ho bhai ";
+console.log(str10.replce("bhai","dost");)
