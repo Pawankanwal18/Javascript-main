@@ -12,3 +12,8 @@ console.log(arr);
 //pop, pop the last element from array
 console.log(arr.pop());
 console.log(arr.pop());
+
+//shift delete eliment from start 
+console.log(arr.shift());
+arr.unshift(100);
+console.log(arr);  
