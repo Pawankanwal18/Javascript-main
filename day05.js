@@ -31,8 +31,13 @@
 ////formula 
 ////console.log(Math.floor(Math.random()*(max-min+1)+min));
 
-console.log(Math.floor (Math.random()*11)+40);
+//console.log(Math.floor (Math.random()*11)+40);
 
 ////console.log(Math.floor(Math.random()*10)); find number from 0 to 9 and for 0 to 10 multiply by 11
+
+////1-11
+//// 2-12
+////3-13
+//// console.log(Math.floor(Math.random()*(10+1)+3));
 
 
