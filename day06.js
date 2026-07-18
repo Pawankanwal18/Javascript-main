@@ -7,4 +7,8 @@ const arr=[2,34,645,434,"pawan","hello"];
 // console.log(newarr==arr);
 
 arr.push(30);
-console.log(arr);
+console.log(arr); 
+
+//pop, pop the last element from array
+console.log(arr.pop());
+console.log(arr.pop());
