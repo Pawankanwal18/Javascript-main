@@ -51,6 +51,12 @@ console.log(newstring.slice(0,5));
 
 console.log(newstring.substring(0,5));
 
-str10 = "hello kase ho bhai ";
-console.log(str10.replce("bhai","dost"));
-co
+str10 = "hello bhai kase ho bhai ";
+console.log(str10.replace("bhai","dost"));
+console.log(str10.replaceAll("bhai","dost"));
+
+let str11 = "money!, honey!, sunny";
+console.log(str11.split("! "));
+
+let  str12 = " yo what is up ";
+console.log(str12.trim(). length);
