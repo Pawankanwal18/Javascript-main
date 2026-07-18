@@ -1,4 +1,4 @@
-const arr=[2,34,645,"pawan","hello","true",86,73];
+// const arr=[2,34,645,"pawan","hello","true",86,73];
 // console.log(arr[4]);
 // console.log(arr.length);
 // console.log(arr.at(5));
@@ -19,8 +19,18 @@ const arr=[2,34,645,"pawan","hello","true",86,73];
 // console.log(arr);  
 // console.log(arr);
 // console.log(arr.indexOf(2));
-console.log(arr);
-console.log(arr.slice(2,4));// start from 2 but 4th index is not included 
+// console.log(arr);
+// console.log(arr.slice(2,4));// start from 2 but 4th index is not included 
 
-//splice
-console.log(arr.splice(2,4));//start from 2nd index and give the 4 elements
+// //splice
+// console.log(arr);
+// //console.log(arr.splice(2,4));//start from 2nd index and give the 4 elements
+// let newsplice = arr.splice(2,4);
+// console.log(newsplice);
+// console.log(arr);
+ 
+console.log(arr.toString());
+let arr1 =[2 ,34,56,323];
+let arr2 =[3 ,45,54,534];
+let arr3 = arr1.concat(arr2);
+console.log(arr3);
