@@ -1,4 +1,4 @@
-                         Array//
+                        // Array//
 
 const arr=[2,34,645,"pawan","hello","true",86,73];
 console.log(arr[4]);
