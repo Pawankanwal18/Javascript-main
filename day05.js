@@ -17,4 +17,9 @@
 // // console.log(Math.PT);
 // console.log(Math.PI);
 // console.log(Math.LN10);
-console.log(Math.random());
+// console.log(Math.random());
+
+// //floor and ceil
+// let num = 23.1;
+// console.log(Math.floor(num));
+// console.log(Math.ceil(num));
