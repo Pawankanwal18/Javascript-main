@@ -40,4 +40,5 @@
 ////3-13
 //// console.log(Math.floor(Math.random()*(10+1)+3));
 
-
+////ludo 1-6
+console.log(Math.floor(Math.random()*(6-1+1)+1));
