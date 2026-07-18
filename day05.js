@@ -14,5 +14,6 @@ console.log(num.toString(2));
 //Math
 
 console.log(Math.E);
-console.log(Math.PT);
-
+// console.log(Math.PT);
+console.log(Math.PI);
+console.log(Math.LN10);
