@@ -8,3 +8,5 @@ console.log(d.getDay());
 console.log(d.getMonth());
 console.log(d.getFullYear());
 console.log(d.getMilliseconds());
+const now = Date.now();
+console.log(now); 
