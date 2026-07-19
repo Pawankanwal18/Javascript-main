@@ -25,7 +25,17 @@
 
                  //date calculation
 
-const date1 = new Date();
-const date2 = new Date("2026-09-26");
+// const date1 = new Date();
+// const date2 = new Date("2026-09-26");
 
-console.log(date2-date1);
+// console.log(date2-date1);
+
+        //countdown timer for olympics
+    //days , hour , minute, second,
+const date1 = new Date();
+const date2 = new Date("2028-07-14");
+
+const date = date2-date1;
+const days = Math.floor(date/(1000*60*60*24));
+const hour = Math.floor((date/(1000*60*60))%24)
+console.log(days);
