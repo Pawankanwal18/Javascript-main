@@ -13,7 +13,7 @@ console.log(obj);
     "Account number" : 221221
  }
  console.log(fb["Account number"]);
-
+//second method for creating obj
  const person = new Object();
  person.name = "Pawan";
  person.age = 80;
