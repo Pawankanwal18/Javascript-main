@@ -22,3 +22,16 @@ console.log(obj);
  //delete
  delete person.age;
  console.log(person);
+ 
+ //third method
+ class People{
+    constructor(name, age, gender){
+        this.name = name;
+        this.age = age;
+        this .gender = gender;
+
+    }
+ }
+
+ let per1 = new People("Pawan", 20,"male");
+ console.log(per1);
