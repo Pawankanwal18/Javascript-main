@@ -6,3 +6,10 @@ let obj = {
     gender: "male"
 }
 console.log(obj);
+
+ let fb = {
+    userid : "pawan18",
+    password: "pawanXYZ",
+    "Account number" : 221221
+ }
+ console.log(fb["Account number"]);
