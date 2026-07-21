@@ -36,7 +36,7 @@ console.log(obj);
  let per1 = new People("Pawan", 20,"male");
  console.log(per1);
 
-                         //common method
+                         //common method on object
 
  let obj ={
     name : "pawan",
