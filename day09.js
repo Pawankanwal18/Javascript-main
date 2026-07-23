@@ -9,6 +9,7 @@ obj2.a =10;
 console.log(obj2, obj1);
 
 //deep copy  
+//structureclone is must use
 
 let obj3 = structuredClone(obj1);
 obj3.a =20;
@@ -22,5 +23,10 @@ const user ={
     pincode: 263632,
     city:"xyz"
 }
-}
+}   
+//console.log(user.address.pincode);
+
+const user2 = Object.assign({},user);
+console.log(user2);
+user2.address.pincode = 78473;
 console.log(user.address.pincode);
