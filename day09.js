@@ -54,13 +54,26 @@
 // const [first, second, , third] = arr;
 // console.log(first, second,third);
 
+// let obj ={
+//     name: "pawan",
+//     age : 33,
+//     addres : {
+//         pincode: 232313,
+//         city: "kolkata",
+//     }
+// };
+// const {addres:{pincode, city}}= obj;
+// console.log(pincode, city);
+
+
 let obj ={
     name: "pawan",
     age : 33,
+    arr : [2,4,54,3,6],
     addres : {
         pincode: 232313,
         city: "kolkata",
     }
 };
-const {addres:{pincode, city}}= obj;
-console.log(pincode, city);
+const{arr:[first,second]} =obj;
+console.log(first,second);
