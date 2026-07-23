@@ -32,3 +32,10 @@
 // console.log(user.address.pincode);
 
 //destructuring of an object
+let obj ={
+    name : "pawan",
+    money : 30,
+    balance: 30,
+    age:20,
+
+};
