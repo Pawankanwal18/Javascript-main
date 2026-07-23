@@ -32,7 +32,7 @@
 
 //arrow function we dont't even write return
 
-const sum = (number1, number2)=>number1+number2;
+const sum = (number1, number2) => number1+number2;
 
 
 let result = sum(2,5);
