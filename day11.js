@@ -6,8 +6,26 @@
 // }
 // hello();
 
-function sum(number1,number2){
-    console.log(number1+number2)
-};
-sum(2,3);
-sum(10,320);
+// function sum(number1,number2){
+//     console.log(number1+number2)
+// };
+// sum(2,3);
+// sum(10,320);
+
+// function multi(number1,number2)
+// {
+//     // console.log(number1*number2)
+//     return number1*number2;
+// }
+
+// let result = multi(4,6);
+// console.log(result);
+// // console.log(multi(43,5));
+
+// const fun = function(){
+//     console.log("hello brother");
+//     console.log("how are you");
+//     return "money";
+   
+// }
+// console.log(fun());
