@@ -40,5 +40,9 @@ let obj ={
 
 };
 
-const {name , money} = obj;
-console.log(name, money);
+// const {name , money} = obj;
+// console.log(name, money);
+// for we can also use the that 
+
+const {name : full_name, money : amounnt , age : umer}= obj;
+console.log(full_name,amounnt,umer);
