@@ -41,3 +41,15 @@
 // const cube = number => number*number*number; 
 // let result = cube(3);
 // console.log(result);
+
+//rest operator
+// const sum = function(...number){
+//     //for loop sum nikal sakta h
+//   console.log(number);
+
+
+// }
+
+// sum(2,3,4);
+// sum(4,6,5,4,3,);
+ 
