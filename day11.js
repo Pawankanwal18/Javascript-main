@@ -53,3 +53,14 @@
 // sum(2,3,4);
 // sum(4,6,5,4,3,);
  
+let obj = {
+    name: "pawan",
+    age : 30,
+    amount: 420,
+}
+
+function fun({name , amount}){
+    console.log(name , amount);
+}
+
+fun(obj);
