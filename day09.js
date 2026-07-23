@@ -49,3 +49,7 @@
 // const {name,  age,...obj1}= obj;
 // console.log(name,  age);
  
+//array destrcturing 
+const arr =[3,4,2,1,2];
+const [first, second, , third] = arr;
+console.log(first, second,third);
