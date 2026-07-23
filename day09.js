@@ -9,7 +9,7 @@ obj2.a =10;
 console.log(obj2, obj1);
 
 //deep copy  
-//structureclone is must use
+//structureclone is must use and importent
 
 let obj3 = structuredClone(obj1);
 obj3.a =20;
