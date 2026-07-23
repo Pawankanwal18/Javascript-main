@@ -31,18 +31,21 @@
 // user2.address.pincode = 78473;
 // console.log(user.address.pincode);
 
-//destructuring of an object
-let obj ={
-    name : "pawan",
-    money : 30,
-    balance: 30,
-    age:20,
+//destructuring of an object mostly used in the function call
+// let obj ={
+//     name : "pawan",
+//     money : 30,
+//     balance: 30,
+//     age:20,
 
-};
+// };
 
 // const {name , money} = obj;
 // console.log(name, money);
 // for we can also use the that 
 
-const {name : full_name, money : amounnt , age : umer}= obj;
-console.log(full_name,amounnt,umer);
+// const {name : full_name, money : amounnt , age : umer}= obj;
+// console.log(full_name,amounnt,umer);
+// const {name,  age,...obj1}= obj;
+// console.log(name,  age);
+ 
