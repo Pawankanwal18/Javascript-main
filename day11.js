@@ -32,8 +32,12 @@
 
 //arrow function we dont't even write return
 
-const sum = (number1, number2) => number1+number2;
+// const sum = (number1, number2) => number1+number2;
 
 
-let result = sum(2,5);
-console.log(result);
+// let result = sum(2,5);
+// console.log(result);
+
+// const cube = number => number*number*number; 
+// let result = cube(3);
+// console.log(result);
