@@ -93,4 +93,3 @@ let user = {
 console.log(user.greet());
 console.log(user.meet());
 
-//
