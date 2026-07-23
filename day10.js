@@ -27,4 +27,4 @@ user2.__proto__ = user1;
 console.log(user2.name);
 
 //arr prototype__prototype is s object 
-//object prototype is same simple words duble prototype is a object and triple object is a null and thats called a protocotype chainingn
+//object prototype is same simple words duble prototype is a object and triple object is a null and thats called a protocotype chainning
