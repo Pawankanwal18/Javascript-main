@@ -29,3 +29,12 @@
    
 // }
 // console.log(fun());
+
+//arrow function
+
+const sum = (number1, number2)=>{
+    return number1+number2;
+}
+
+let result = sum(2,5);
+console.log(result);
