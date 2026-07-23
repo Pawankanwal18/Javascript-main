@@ -39,3 +39,6 @@ let obj ={
     age:20,
 
 };
+
+const {name , money} = obj;
+console.log(name, money);
