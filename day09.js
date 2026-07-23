@@ -83,7 +83,14 @@ let user = {
     age: 32,
     greet : function(){
         console.log("hello bhai kase ho");
+    },
+    meet: function(){
+        return 20;
+
     }
 }
  
-user.greet();
+console.log(user.greet());
+console.log(user.meet());
+
+//
