@@ -66,14 +66,24 @@
 // console.log(pincode, city);
 
 
-let obj ={
+// let obj ={
+//     name: "pawan",
+//     age : 33,
+//     arr : [2,4,54,3,6],
+//     addres : {
+//         pincode: 232313,
+//         city: "kolkata",
+//     }
+// };
+// const{arr:[first,second]} =obj;
+// console.log(first,second);
+
+let user = {
     name: "pawan",
-    age : 33,
-    arr : [2,4,54,3,6],
-    addres : {
-        pincode: 232313,
-        city: "kolkata",
+    age: 32,
+    greet : function(){
+        console.log("hello bhai kase ho");
     }
-};
-const{arr:[first,second]} =obj;
-console.log(first,second);
+}
+ 
+user.greet();
