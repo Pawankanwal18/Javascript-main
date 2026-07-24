@@ -1,6 +1,5 @@
 // //for of loop to accesing the array  element
 
-const { useCallback } = require("react");
 
 // const arr =[10,20,30,40];
 // for(let value of arr)
@@ -47,7 +46,19 @@ let arr =[10,35,43,23,65];
 //second index
 //thied: array passing
 //arr.forEach(useCallbackFunction)
-arr.forEach((num, index,a)=> {
-    a[index] = num*2;
-});
-console.log(arr);
+
+
+function greet(num){
+    console.log(num);
+}
+
+arr.forEach(greet);
+
+
+// arr.forEach((num, index,a)=> {
+//     a[index] = num*2;
+// });
+// console.log(arr);
+
+
+ 
