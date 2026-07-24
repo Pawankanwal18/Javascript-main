@@ -106,8 +106,19 @@
 // }
 
 
-let arr = [10,20,30,43]
-for(let i=0; i<arr.length;i++);
-{
-    console.log(arr);
+// let arr = [10,20,30,43];
+// for(let i=0;i<arr.length;i++)
+// {
+//     console.log(arr[i]);
+// }
+
+
+const obj = {
+    name : "rohit",
+    age :30,
+    amount:32,
+    city : "rampur"
+
 }
+const a = Object.values(obj);
+console.log(a);
