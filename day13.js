@@ -38,16 +38,27 @@
 //  console.log(obj1.account_number);
 
 
+// const customer={
+//     name : "pawan",
+//     age :23,
+//     account_number :123,
+//     balance : 20000
+// }
+// Object.defineProperty(customer , "name",{
+//     writable: false,
+// })
+
+// customer.name = "rohit";
+// customer.age =24;
+// console.log(customer);
+
+//enumerable : jis bhi key ka enumerable true hoga,un sbka acces hga ya print hoga ya acces hoga un sbka 
+//inherit hoke bhe koi bhe property or key aatu hai , uska enumrable true hoga to uska bhe access hoga 
+
+
 const customer={
     name : "pawan",
     age :23,
     account_number :123,
     balance : 20000
 }
-Object.defineProperty(customer , "name",{
-    writable: false,
-})
-
-customer.name = "rohit";
-customer.age =24;
-console.log(customer);
