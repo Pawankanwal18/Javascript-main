@@ -97,10 +97,17 @@
 
                      //while loop
 
-let i =1;
-while(i<6)
-{
-    console.log(1);
+// let i =1;
+// while(i<6)
+// {
+//     console.log(1);
 
-i++;
+// i++;
+// }
+
+
+let arr = [10,20,30,43]
+for(let i=0; i<arr.length;i++);
+{
+    console.log(arr);
 }
