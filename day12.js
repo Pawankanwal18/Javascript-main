@@ -45,3 +45,17 @@
 
 
 // }
+
+// for(let i=0; i<20; i++){
+//     console.log(43)
+// }
+
+// //sum of first n number
+// let sum =0;
+// for(let i =1; 1<=10; i++)
+//  {
+//     sum+=i;
+//  }
+//  console.log(sum)
+
+//
