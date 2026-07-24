@@ -32,3 +32,6 @@ let obj1 = {
  Object.defineProperty(obj1,'account number',{
     writable : false
  })
+
+ obj1.account_number =421803;
+ console.log(obj1.account_number);
