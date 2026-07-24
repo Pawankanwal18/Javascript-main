@@ -19,15 +19,26 @@
 
  //callback function ,passing an argument(refrence) within any function is called a callback function
 
- function names(fun){
-    console.log("hello i am name ");
-    fun();
- }
+//  function names(fun){
+//     console.log("hello i am name ");
+//     fun();
+//  }
 
- function meet(){
-    console.log("my name is callback function");
+//  function meet(){
+//     console.log("my name is callback function");
 
- }
+//  }
 
- names(meet); 
+//  names(meet); 
  
+// greet(()=>{
+//     console.log("yoo what is up");
+//  });
+
+// function fetchData(){
+//     console.log("hello  i am a fetchData");
+
+// }
+// setInterval(fetchData,3000);
+let arr =[10,35,43,23,65];
+arr.forEach((num)=> console.log(num));
