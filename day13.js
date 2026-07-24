@@ -13,7 +13,7 @@ let obj ={
 
 // }
  
-let obj= Object.create(obj);
+let obj2= Object.create(obj);
 obj2.money =420;
 obj2.id = "roh";
 // console.log(obj2);
