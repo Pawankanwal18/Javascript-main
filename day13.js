@@ -22,16 +22,32 @@
 // {
 //     console.log(key);
 // }
-  
-let obj1 = {
-    name : "sohan",
-    age : 30,
-    city : "raipur",
-    account_number: 421803
-};
- Object.defineProperty(obj1,'account number',{
-    writable : false
- })
+  //if writeable value is true then value is changable and if value is false then value  is not changeable
 
- obj1.account_number =421803;
- console.log(obj1.account_number);
+// const obj1 = {
+//     name : "sohan",
+//     age : 30,
+//     city : "raipur",
+//     account_number: 421803
+// }
+//  Object.defineProperty(obj1,'account number',{
+//     writable : false
+//  })
+
+//  obj1.account_number =421803;
+//  console.log(obj1.account_number);
+
+
+const customer={
+    name : "pawan",
+    age :23,
+    account_number :123,
+    balance : 20000
+}
+Object.defineProperty(customer , "name",{
+    writable: false,
+})
+
+customer.name = "rohit";
+customer.age =24;
+console.log(customer);
