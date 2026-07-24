@@ -16,3 +16,5 @@ const obj ={
 for(let value of obj){
     console.log(value);
 }
+ //callback function ,passing an argument(refrence) within any function is called a callback function
+ 
