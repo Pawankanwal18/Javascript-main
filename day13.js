@@ -62,3 +62,9 @@ const customer={
     account_number :123,
     balance : 20000
 }
+
+Object.defineProperty(customer ,"name",{
+    enumerable: false,
+})
+for(let key in customer)
+    console.log(key);
