@@ -41,4 +41,10 @@
 // }
 // setInterval(fetchData,3000);
 let arr =[10,35,43,23,65];
-arr.forEach((num)=> console.log(num));
+//single argument : number
+//second index
+//thied: array passing
+arr.forEach((num, index,a)=> {
+    a[index] = num*2;
+});
+console.log(arr);
