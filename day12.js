@@ -58,4 +58,13 @@
 //  }
 //  console.log(sum)
 
-//
+//12345 6 time 
+
+// for(let j=1; j<=5;j++){
+// for(let i =1; i<=5;i++)
+// {
+//     console.log(i);
+// }}
+
+
+//about scope
