@@ -68,3 +68,28 @@
 
 
 //about scope
+//globle scope , local scope(funnctional scop), block scope
+
+// let a=10;
+// var b=20;
+// const c = 30;
+//globle scope
+
+// function greet(){
+//       let a =10;
+//       var b = 20;
+//       const c =30;
+//     console.log("hello brother");
+//    console.log(a,b,c);
+// };
+
+// greet();
+// //console.log(c);
+
+if(true){
+    let a =10;
+    var b = 20;
+    const c = 30;
+
+}
+console.log(b);
