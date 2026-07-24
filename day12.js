@@ -113,12 +113,12 @@
 // }
 
 
-const obj = {
-    name : "rohit",
-    age :30,
-    amount:32,
-    city : "rampur"
+// const obj = {
+//     name : "rohit",
+//     age :30,
+//     amount:32,
+//     city : "rampur"
 
-}
-const a = Object.values(obj);
-console.log(a);
+// }
+// const a = Object.values(obj);
+// console.log(a);
