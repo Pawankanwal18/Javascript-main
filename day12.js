@@ -86,10 +86,21 @@
 // greet();
 // //console.log(c);
 
-if(true){
-    let a =10;
-    var b = 20;
-    const c = 30;
+// if(true){
+//     let a =10;
+//     var b = 20;
+//     const c = 30;
 
+// }
+// console.log(b);
+ 
+
+                     //while loop
+
+let i =1;
+while(i<6)
+{
+    console.log(1);
+
+i++;
 }
-console.log(b);
