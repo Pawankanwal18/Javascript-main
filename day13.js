@@ -56,15 +56,22 @@
 //inherit hoke bhe koi bhe property or key aatu hai , uska enumrable true hoga to uska bhe access hoga 
 
 
-const customer={
+const customer1={
     name : "pawan",
     age :23,
     account_number :123,
     balance : 20000
 }
 
-Object.defineProperty(customer ,"name",{
+
+let customer2= Object.create(customer1);
+customer2.city = "haridwar";
+customer2.place = "delhi";
+  
+
+
+Object.defineProperty(customer1 ,"name",{
     enumerable: false,
 })
-for(let key in customer)
+for(let key in customer2)
     console.log(key);
