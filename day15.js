@@ -58,3 +58,18 @@
 
 
 // set1.forEach((value)=>console.log(value));
+
+                           //map is key value pair in js
+
+ //key value pair : key should be unique
+
+//  const map1 = new Map();
+//  map1.set(3,90);
+//  map1.set("pawan",18);
+//  map1.set("rohit");
+//  //map1.set("rohit",40); value ko  update karega 
+
+
+//  map1.delete(3);
+// //  map1.has("pawan")
+//  console.log(map1.has("pawan"));
