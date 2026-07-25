@@ -50,8 +50,11 @@
                     //iterate over set
 
 
-let set1 =new Set([10,20,30,40,50]);
-let set2 = new Set([30,50,60,90]);
+// let set1 =new Set([10,20,30,40,50]);
+// let set2 = new Set([30,50,60,90]);
 
-for(let value of set1)
-    console.log(value);
+// // for(let value of set1)
+// //     console.log(value);
+
+
+// set1.forEach((value)=>console.log(value));
