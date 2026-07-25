@@ -28,3 +28,21 @@
 // const user_id = new Set(["pawan_kanwal", "mohit_32","ajay21","rohan_32"]);
 // let new_user = "pawan_kanwal";
 // console.log(user_id.has(new_user));
+  
+                 //union
+
+// let set1 =new Set([10,20,30,40,50]);
+// let set2 = new Set([30,50,60,90]);
+
+// let set3 =new Set([...set1,...set2]);
+// console.log(set3);  
+
+
+                //intersection
+
+// let set1 =new Set([10,20,30,40,50]);
+// let set2 = new Set([30,50,60,90]);
+
+// const result = [...set1].filter((num)=>set2.has(num));
+
+// console.log(result)
