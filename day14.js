@@ -60,7 +60,24 @@
 // });
 // console.log(arr);
 
-//filter
- let arr =[10,35,43,23,65];
- const result = arr.filter((num)=>num%2==0);
- console.log(result);
+                        //filter
+
+//  let arr =[10,35,43,23,65];
+//  const result = arr.filter((num)=>num%2==0);
+//  console.log(result);
+
+
+// const students = [
+//     {name:"pawan", age:22, marks :70},
+//     {name:"rohit", age:23, marks :50},
+//     {name:"mohit", age:25, marks :94},
+//     {name:"sohan", age:29, marks :78},
+//     {name:"ruhi", age:28, marks: 59},
+// ]
+// const result = students.filter((obj)=> obj.marks>50
+
+// );
+// console.log(result)
+
+                       //map
+
