@@ -41,18 +41,18 @@
 
 // }
 // setInterval(fetchData,3000);
-let arr =[10,35,43,23,65];
+// let arr =[10,35,43,23,65];
 //single argument : number
 //second index
 //thied: array passing
 //arr.forEach(useCallbackFunction)
 
 
-function greet(num){
-    console.log(num);
-}
+// function greet(num){
+//     console.log(num);
+// }
 
-arr.forEach(greet);
+// arr.forEach(greet);
 
 
 // arr.forEach((num, index,a)=> {
@@ -61,4 +61,4 @@ arr.forEach(greet);
 // console.log(arr);
 
 
- 
+ let arr =[10,35,43,23,65];
