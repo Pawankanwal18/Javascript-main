@@ -25,4 +25,6 @@
 // const set1 = new Set([10,32,32,21,10,30]);
 // console.log(set1);
 
-const 
+// const user_id = new Set(["pawan_kanwal", "mohit_32","ajay21","rohan_32"]);
+// let new_user = "pawan_kanwal";
+// console.log(user_id.has(new_user));
