@@ -6,14 +6,23 @@
 
 // console.log(result);
 
-let arr= ["orenge", "apple","orenge", "apple","orenge", "apple","orenge"];
+// let arr= ["orenge", "apple","orenge", "apple","orenge", "apple","orenge"];
 
-const result = arr.reduce((acc,curr)=>{
-    if(acc.hasOwnProperty(curr))
-        acc[curr]++;
-    else
-        acc[curr]=1;
-    return acc;
-},{})
+// const result = arr.reduce((acc,curr)=>{
+//     if(acc.hasOwnProperty(curr))
+//         acc[curr]++;
+//     else
+//         acc[curr]=1;
+//     return acc;
+// },{})
 
-console.log(result);
+// console.log(result);
+
+
+                   //sets
+//store uniqe value
+
+// const set1 = new Set([10,32,32,21,10,30]);
+// console.log(set1);
+
+const 
