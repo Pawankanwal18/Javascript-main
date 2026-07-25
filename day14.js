@@ -60,5 +60,9 @@
 // });
 // console.log(arr);
 
-
+//filter
  let arr =[10,35,43,23,65];
+ const result = arr.filter((num)=>{
+    return num%2==0;
+ })
+ console.log(result);
