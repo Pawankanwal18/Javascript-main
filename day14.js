@@ -81,3 +81,11 @@
 
                        //map
 
+// const arr = [1,2,4,5]
+//  const result=arr.map((num)=> num*num);
+//  console.log(result);
+// const arr =[1,2,3,4,5,6]
+// const result = arr.filter((num)=> num%2==0).map((num)=>num*num);
+// console.log(result);
+
+                
