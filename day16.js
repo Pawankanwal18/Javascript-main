@@ -56,13 +56,13 @@
 //  let a = new Person("pawan",30);
 //  console.log(a);
 
-let greet =()=>{
-    console.log(this);
+// let greet =()=>{
+//     console.log(this);
 
-}
-greet();
+// }
+// greet();
 
-let meet = function(){
-    console.log(this);
-}
-meet();
+// let meet = function(){
+//     console.log(this);
+// }
+// meet(); 
