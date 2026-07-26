@@ -46,3 +46,12 @@
 
 ///inside a constructor or class
 //in constructtors and classes, this refres to the instance of the object being 
+ class Person {
+    constructor(name , age){
+        this.name = name;
+        this.age = age;
+    }
+ }
+ 
+ let a = new Person("pawan",30);
+ console.log(a);
