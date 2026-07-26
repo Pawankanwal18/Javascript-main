@@ -29,16 +29,16 @@
 //in output {} empty
 
 
-let obj = {
-    name : "rohit",
-    age : 23,
-    greet: function(){
+// let obj = {
+//     name : "rohit",
+//     age : 23,
+//     greet: function(){
        
-    let ab =()=>{
-        console.log(this);
-    };
-    ab();
-}
-}
+//     let ab =()=>{
+//         console.log(this);
+//     };
+//     ab();
+// }
+// }
 
-obj.greet();
+// obj.greet();
