@@ -42,3 +42,7 @@
 // }
 
 // obj.greet();
+
+
+///inside a constructor or class
+//in constructtors and classes, this refres to the instance of the object being 
