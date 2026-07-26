@@ -55,3 +55,14 @@
  
 //  let a = new Person("pawan",30);
 //  console.log(a);
+
+let greet =()=>{
+    console.log(this);
+
+}
+greet();
+
+let meet = function(){
+    console.log(this);
+}
+meet();
