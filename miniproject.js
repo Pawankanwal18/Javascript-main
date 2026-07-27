@@ -16,7 +16,19 @@
 // timer.style.height ="100vh";
 // timer.style.alignItems ="center";
 
-const id = document.querySelector('#first');
-id.innerHTML ="Hello Money";
+// const id = document.querySelector('#first');
+// id.innerHTML ="Hello Money";
 
-const id2 = document.querySelector('.header2');
+// const id2 = document.querySelector('.header2');
+
+//how to iterate over node list
+
+//1:  obj.forEach((val)=>{
+    //console.log(var;)})
+
+//2: for(let val of obj)
+//console.log(val)
+
+
+//3: for(i=0);i<obj.length;i++)
+//     obj[i].style.color ="red";
