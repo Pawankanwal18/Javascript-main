@@ -1,7 +1,13 @@
- 
+ function attech(content){
  let element = document.createElement('li');
-element.innerHTML = "TS";
+element.innerHTML = content;
 
 
 const parent = document.getElementById("root");
-parent.appendChild(element);
+// parent.appendChild(element);
+parent.append(element);
+ };
+
+ attech("TS");
+ attech("REACT");
+ attech("NODE")
