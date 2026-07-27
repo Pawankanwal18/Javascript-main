@@ -21,3 +21,12 @@
 // };
 // call("hello ji");
 
+//attribute node
+const element = document.createAttribute("Id");
+element.value = "first";
+document.querySelector('li');
+
+
+// const parent =document.getElementById("root");
+// parent.appendChild(element)
+
