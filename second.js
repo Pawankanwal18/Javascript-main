@@ -54,3 +54,9 @@
 
 // // parent.insertAdjacentElement("beforebegin",element);
 // parent.insertAdjacentElement("afterend",element);
+
+
+//delete node 
+
+const element =document.querySelector('li');
+element.remove();
