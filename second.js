@@ -40,8 +40,17 @@
 // element.setAttribute("id","pawan");
 //element.removeAttribute("custom");`
 
-const parent = document.getElementById("root");
-const element = document.createElement("li");
-element.innerHTML = "TS";
+// const parent = document.getElementById("root");
+// const element = document.createElement("li");
+// element.innerHTML = "TS";
 
-parent.prepend(element);
+// parent.prepend(element);
+// parent.append(element);
+//  const parent = document.getElementById("root");
+// //  parent.innerHTML += "<li>TS</li>";
+
+// const element = document.createElement("div");
+// element.innerHTML = "hello bhai log kase ho app";
+
+// // parent.insertAdjacentElement("beforebegin",element);
+// parent.insertAdjacentElement("afterend",element);
