@@ -22,11 +22,14 @@
 // call("hello ji");
 
 //attribute node
-const element = document.createAttribute("Id");
-element.value = "first";
-document.querySelector('li');
-
+// const element = document.createAttribute("Id");
+// element.value = "first";
+//  const curr_list = document.querySelector('li');
+//  curr_list.setAttributeNode(element);
+ 
 
 // const parent =document.getElementById("root");
 // parent.appendChild(element)
 
+// const parent = document.getElementById("root");
+// parent.children[1].setAttributeNode(element)
