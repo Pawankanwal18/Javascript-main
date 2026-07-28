@@ -33,3 +33,6 @@
 
 // const parent = document.getElementById("root");
 // parent.children[1].setAttributeNode(element)
+
+const element = document.getElementById("root");
+console.log(element.getAttribute("class"));
