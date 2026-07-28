@@ -38,4 +38,10 @@
 // console.log(element.getAttribute("id"));
 // element.setAttribute("custom","20");
 // element.setAttribute("id","pawan");
-//element.removeAttribute("custom");
+//element.removeAttribute("custom");`
+
+const parent = document.getElementById("root");
+const element = document.createElement("li");
+element.innerHTML = "TS";
+
+parent.prepend(element);
