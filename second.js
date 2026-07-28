@@ -58,5 +58,5 @@
 
 //delete node 
 
-const element =document.querySelector('li');
-element.remove();
+// const element =document.querySelector('li');
+// element.remove();
