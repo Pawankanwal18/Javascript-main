@@ -17,3 +17,6 @@
 // 4: event.key
 // 5:event.clientX
 // 6: event.clientY
+ 
+
+//these all  are the object events and they all are the events
