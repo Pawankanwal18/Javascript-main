@@ -16,7 +16,7 @@
 // 3: event.type //describe the event type
 // 4: event.key
 // 5:event.clientX
-// 6: event.clientY
+// 6: event.clientY//both show the exect possiton of the click 
  
 
 //these all  are the object events and they all are the events
