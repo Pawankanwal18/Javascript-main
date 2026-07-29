@@ -13,7 +13,7 @@
 // //<!---Event OBject--->
 // 1 : event
 // 2 :event.target
-// 3: event.type
+// 3: event.type //describe the event type
 // 4: event.key
 // 5:event.clientX
 // 6: event.clientY
