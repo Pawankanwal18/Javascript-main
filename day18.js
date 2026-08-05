@@ -5,3 +5,4 @@ function fetchuser(){
         console.log("user data fetched")
     }, 2000)
 }
+ 
