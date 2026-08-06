@@ -19,15 +19,15 @@
 
 // fetchuser();
 
-function fetchdata(call back){
-    console.log("fetched info of user");
+// function fetchdata(call back){
+//     console.log("fetched info of user");
 
-    setTimeout(()=>{
-        console.log("user info fetched");
-        const name = "pawan";
-        callback(name);
-    }, 2000)
-}
-fetchdata(function(name){
-    console.log(`hello ${name}`);
-});
+//     setTimeout(()=>{
+//         console.log("user info fetched");
+//         const name = "pawan";
+//         callback(name);
+//     }, 2000)
+// }
+// fetchdata(function(name){
+//     console.log(`hello ${name}`);
+// });
