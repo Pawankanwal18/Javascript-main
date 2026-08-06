@@ -17,3 +17,14 @@
     }
 
     pizzaPrepare();
+
+    function pizzaDeliver(){
+        console.log("delivering pizza");
+
+        setTimeout(()=>{
+            console.log("pizza is delivered");
+        } ,3000)
+    }
+
+
+    pizzaDeliver();
