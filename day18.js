@@ -18,3 +18,5 @@ function meet(name){
 }
 
 fetchuser();
+
+function fetchdata(call back){}
