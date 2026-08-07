@@ -23,7 +23,7 @@
         console.log("delivering pizza");
 
         setTimeout(()=>{
-            console.log("pizza is delivered");
+            console.log("pizza is delivered succesfully");
         } ,3000)
     }
 
