@@ -1,23 +1,24 @@
     //   call back hell
-    function pizzaOrder(){
+    function pizzaOrder(Callback){
         console.log("placing order for pizza");
 
         setTimeout(()=>{
             console.log("order is placed for pizza");
+            Callback();
         } ,2000)
     }
-    pizzaOrder();
+   
 
-    function pizzaPrepare(){
+    function pizzaPrepare(callback){
         console.log("preparing pizza");
 
         setTimeout(()=>{
             console.log("pizza is prepared");
+            callback()
         } ,5000)
     }
 
-    pizzaPrepare();
-
+   
     function pizzaDeliver(){
         console.log("delivering pizza");
 
@@ -27,4 +28,8 @@
     }
 
 
-    pizzaDeliver();
+pizzaOrder(()=>{
+    pizzaPrepare(()=>{
+        pizzaDeliver();
+    });
+}); 
