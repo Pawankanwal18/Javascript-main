@@ -58,3 +58,5 @@
 
  greet();
  console.log("program End"); 
+
+ //web api has set timeout, set interval, fetch, dom, console there all are the part of the web api 
