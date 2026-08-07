@@ -33,3 +33,9 @@
 //         pizzaDeliver();
 //     });
 // });  
+
+
+//java is a single threaded syncronous language:
+
+//ja behaviour : asyncronus
+//single thread means = one task will be excuted at a time :
