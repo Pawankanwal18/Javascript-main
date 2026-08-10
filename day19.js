@@ -72,13 +72,24 @@
  const p1 = new Promise((resolve,reject)=>{
    setTimeout(()=>{
       resolve("hello everyone");
-   },5000)
+   },8000)
  })
 
+
+  const p2 = new Promise((resolve,reject)=>{
+   setTimeout(()=>{
+      resolve("how are you all ");
+   },5000)
+ })
 //  p1.then((response)=>console.log(response));
 //using await async to fix
 async function greet() {
-   const data = await p1;
-   console.log(data);
+
+   const data1 = await p1;
+   console.log(data1);
+
+    const data2 = await p2;
+   console.log(data2);
+
 }
 greet();  
