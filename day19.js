@@ -1,45 +1,45 @@
-    // callback hell converted to async/await
-    function pizzaOrder(){
-        return new Promise((resolve) => {
-            console.log("talking for pizza order");
+   //  // callback hell converted to async/await
+   //  function pizzaOrder(){
+   //      return new Promise((resolve) => {
+   //          console.log("talking for pizza order");
 
-            setTimeout(() => {
-                console.log("order is placed for pizza");
-                resolve();
-            }, 2000)
-        });
-    }
+   //          setTimeout(() => {
+   //              console.log("order is placed for pizza");
+   //              resolve();
+   //          }, 2000)
+   //      });
+   //  }
 
-    function pizzaPrepare(){
-        return new Promise((resolve) => {
-            console.log("preparing pizza");
+   //  function pizzaPrepare(){
+   //      return new Promise((resolve) => {
+   //          console.log("preparing pizza");
 
-            setTimeout(() => {
-                console.log("pizza is prepared");
-                resolve();
-            }, 5000)
-        });
-    }
+   //          setTimeout(() => {
+   //              console.log("pizza is prepared");
+   //              resolve();
+   //          }, 5000)
+   //      });
+   //  }
 
-    function pizzaDeliver(){
-        return new Promise((resolve) => {
-            console.log("delivering pizza");
+   //  function pizzaDeliver(){
+   //      return new Promise((resolve) => {
+   //          console.log("delivering pizza");
 
-            setTimeout(() => {
-                console.log("pizza is delivered succesfully");
-                resolve();
-            }, 3000)
-        });
-    }
+   //          setTimeout(() => {
+   //              console.log("pizza is delivered succesfully");
+   //              resolve();
+   //          }, 3000)
+   //      });
+   //  }
 
-    async function greet(){
-        await pizzaOrder();
-        await pizzaPrepare();
-        await pizzaDeliver();
-        console.log("Food delivered successfully");
-    }
+   //  async function greet(){
+   //      await pizzaOrder();
+   //      await pizzaPrepare();
+   //      await pizzaDeliver();
+   //      console.log("Food delivered successfully");
+   //  }
 
-    greet();
+   //  greet();
 
 
 //java is a single threaded syncronous language:
@@ -68,3 +68,17 @@
 
  //web api has set timeout, set interval, fetch, dom, console there all are the part of the web api 
  //web api is present in the browser of your computer ,event listione are also the part of the web api 
+
+ const p1 = new Promise((resolve,reject)=>{
+   setTimeout(()=>{
+      resolve("hello everyone");
+   },5000)
+ })
+
+//  p1.then((response)=>console.log(response));
+//using await async to fix
+async function greet() {
+   const data = await p1;
+   console.log(data);
+}
+greet();  
