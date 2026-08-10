@@ -28,3 +28,5 @@ const Promises = fetch(`http://api.weatherapi.com/v1/current.json?key=d1cf592c16
 Promises
 .then(response=>response.json())
 .then(data=>console.log(data))
+
+ 
