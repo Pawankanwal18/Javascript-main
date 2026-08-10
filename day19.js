@@ -68,28 +68,38 @@
 
  //web api has set timeout, set interval, fetch, dom, console there all are the part of the web api 
  //web api is present in the browser of your computer ,event listione are also the part of the web api 
+ function test1(){
 
- const p1 = new Promise((resolve,reject)=>{
+    const p1 = new Promise((resolve,reject)=>{
    setTimeout(()=>{
       resolve("hello everyone");
-   },8000)
+   },5000)
  })
+  return p1;
+ }
+ 
 
+ function test2(){
 
-  const p2 = new Promise((resolve,reject)=>{
+     const p2 = new Promise((resolve,reject)=>{
    setTimeout(()=>{
       resolve("how are you all ");
    },5000)
  })
+ return p2;
+ }
+
 //  p1.then((response)=>console.log(response));
 //using await async to fix
 async function greet() {
 
-   const data1 = await p1;
+   const data1 = await test1();
    console.log(data1);
 
-    const data2 = await p2;
+    const data2 = await test2();
    console.log(data2);
 
 }
 greet();  
+
+//async function alwayes return promises
