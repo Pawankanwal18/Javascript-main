@@ -89,7 +89,7 @@
  return p2;
  }
 
-//  p1.then((response)=>console.log(response));
+// p1.then(response=>console.log(response))
 //using await async to fix
 async function greet() {
 
@@ -103,3 +103,5 @@ async function greet() {
 greet();  
 
 //async function alwayes return promises
+
+ 
