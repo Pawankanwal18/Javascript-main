@@ -12,4 +12,4 @@ console.log(ids);
 var x =10;
 console.log(x);
 //var old tarike , don't use it now
-//v8 engine code is write in c++
+//v8 engine code is write in c++ //hello
