@@ -76,4 +76,4 @@ let age=18;
 let money = 1000;
 console.log(age<18 && money>100);//false
 console.log(age>10|| money>100);//true
-console.log(!(age>10));//false 
+console.log(!(age>10));//false  
