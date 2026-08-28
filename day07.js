@@ -32,10 +32,10 @@
 
         //countdown timer for olympics
     //days , hour , minute, second,
-const date1 = new Date();
-const date2 = new Date("2028-07-14");
+// const date1 = new Date();
+// const date2 = new Date("2028-07-14");
 
-const date = date2-date1;
-const days = Math.floor(date/(1000*60*60*24));
-const hour = Math.floor((date/(1000*60*60))%24)
-console.log(days);
+// const date = date2-date1;
+// const days = Math.floor(date/(1000*60*60*24));
+// const hour = Math.floor((date/(1000*60*60))%24)
+// console.log(days);
