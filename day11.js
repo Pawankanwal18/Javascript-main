@@ -64,4 +64,4 @@ function fun({name , amount}){
 }
 
 fun(obj);
-//code of function    sz
+//code of function    rtr
