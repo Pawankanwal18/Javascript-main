@@ -64,4 +64,5 @@ function fun({name , amount}){
 }
 
 fun(obj);
-//code of function    
+//code of function  
+//  
