@@ -39,4 +39,3 @@
 // const days = Math.floor(date/(1000*60*60*24));
 // const hour = Math.floor((date/(1000*60*60))%24)
 // console.log(days);
-//added this code

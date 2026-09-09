@@ -64,4 +64,3 @@ function fun({name , amount}){
 }
 
 fun(obj);
-//
