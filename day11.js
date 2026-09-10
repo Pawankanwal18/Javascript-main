@@ -1,4 +1,4 @@
-              //function
+//function
 
 // function hello(){
 //     console.log("kase ho")
@@ -26,7 +26,7 @@
 //     console.log("hello brother");
 //     console.log("how are you");
 //     return "money";
-   
+
 // }
 // console.log(fun());
 
@@ -52,15 +52,19 @@
 
 // sum(2,3,4);
 // sum(4,6,5,4,3,);
- 
+
 let obj = {
     name: "pawan",
-    age : 30,
+    age: 30,
     amount: 420,
 }
 
-function fun({name , amount}){
-    console.log(name , amount);
+function fun({ name, amount }) {
+    console.log(name, amount);
 }
 
 fun(obj);
+
+
+//array and objects   
+
