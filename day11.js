@@ -66,7 +66,6 @@ function fun({ name, amount }) {
 fun(obj);
 
 
-//array and objects   
-
+//array and object
 
 
