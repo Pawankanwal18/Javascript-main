@@ -40,10 +40,3 @@
 // const hour = Math.floor((date/(1000*60*60))%24)
 // console.log(days);
 //code is correct completely
-//
-
-//
-
-
-
-//
