@@ -26,6 +26,8 @@ const Promises = fetch(`http://api.weatherapi.com/v1/current.json?key=d1cf592c16
 //     console.log(data);
 // })
 
+
+
 //more optimized code of promises
 
 Promises
